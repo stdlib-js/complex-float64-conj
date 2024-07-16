@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8908bda`](https://github.com/stdlib-js/stdlib/commit/8908bda11588f80edf375466ae9e84a3d70cf7d3) - **refactor:** update paths _(by Athan Reines)_
 -   [`76a2524`](https://github.com/stdlib-js/stdlib/commit/76a25248d272330b0ae2e0becd907216037b7a0a) - **feat:** add `complex/float64/conj` _(by Athan Reines)_
 
 </details>
