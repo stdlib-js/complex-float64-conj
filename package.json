@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float64-conj",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the complex conjugate of a double-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
