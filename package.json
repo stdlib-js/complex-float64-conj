@@ -45,7 +45,7 @@
   "devDependencies": {
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/assert-is-complex128": "^0.2.1",
-    "@stdlib/complex-imag": "^0.2.1",
+    "@stdlib/complex-float64-imag": "github:stdlib-js/complex-float64-imag#main",
     "@stdlib/complex-real": "^0.2.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",

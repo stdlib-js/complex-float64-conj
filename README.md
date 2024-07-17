@@ -128,7 +128,7 @@ var x = filledarrayBy( 100, 'complex128', random );
 // Compute the complex conjugate of each complex number...
 var z;
 var i;
-for ( i = 0; i < 100; i++ ) {
+for ( i = 0; i < x.length; i++ ) {
     z = x.get( i );
     console.log( 'conj(%s) = %s', z.toString(), conj( z ).toString() );
 }
@@ -171,7 +171,7 @@ Returns the [complex conjugate][complex-conjugate] of a double-precision complex
 ```c
 #include "stdlib/complex/float64/ctor.h"
 #include "stdlib/complex/real.h"
-#include "stdlib/complex/imag.h"
+#include "stdlib/complex/float64/imag.h"
 
 stdlib_complex128_t z = stdlib_complex128( 5.0, 2.0 );
 
@@ -182,7 +182,7 @@ stdlib_complex128_t v = stdlib_complex128_conj( z );
 double re = stdlib_real( v );
 // returns 5.0
 
-double im = stdlib_imag( v );
+double im = stdlib_complex128_imag( v );
 // returns -2.0
 ```
 
@@ -215,7 +215,7 @@ stdlib_complex128_t stdlib_complex128_conj( const stdlib_complex128_t z );
 ```c
 #include "stdlib/complex/float64/conj.h"
 #include "stdlib/complex/real.h"
-#include "stdlib/complex/imag.h"
+#include "stdlib/complex/float64/imag.h"
 #include "stdlib/complex/float64/ctor.h"
 #include <stdio.h>
 
@@ -233,7 +233,7 @@ int main( void ) {
     for ( i = 0; i < 4; i++ ) {
         z = x[ i ];
         v = stdlib_complex128_conj( z );
-        printf( "conj(%lf + %lfi) = %lf + %lfi\n", stdlib_real( z ), stdlib_imag( z ), stdlib_real( v ), stdlib_imag( v ) );
+        printf( "conj(%lf + %lfi) = %lf + %lfi\n", stdlib_real( z ), stdlib_complex128_imag( z ), stdlib_real( v ), stdlib_complex128_imag( v ) );
     }
 }
 ```
@@ -262,7 +262,7 @@ int main( void ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/complex-imag`][@stdlib/complex/imag]</span><span class="delimiter">: </span><span class="description">return the imaginary component of a double-precision complex floating-point number.</span>
+-   <span class="package-name">[`@stdlib/complex-float64/imag`][@stdlib/complex/float64/imag]</span><span class="delimiter">: </span><span class="description">return the imaginary component of a double-precision complex floating-point number.</span>
 -   <span class="package-name">[`@stdlib/complex-real`][@stdlib/complex/real]</span><span class="delimiter">: </span><span class="description">return the real component of a double-precision complex floating-point number.</span>
 -   <span class="package-name">[`@stdlib/complex-float64/reim`][@stdlib/complex/float64/reim]</span><span class="delimiter">: </span><span class="description">return the real and imaginary components of a double-precision complex floating-point number.</span>
 
@@ -346,7 +346,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/complex/imag]: https://github.com/stdlib-js/complex-imag
+[@stdlib/complex/float64/imag]: https://github.com/stdlib-js/complex-float64-imag
 
 [@stdlib/complex/real]: https://github.com/stdlib-js/complex-real
 
