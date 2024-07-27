@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-float64-conj",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Return the complex conjugate of a double-precision complex floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -40,13 +40,13 @@
   },
   "dependencies": {
     "@stdlib/complex-float64-ctor": "^0.0.1",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/assert-is-complex128": "^0.2.1",
-    "@stdlib/complex-float64-imag": "github:stdlib-js/complex-float64-imag#main",
-    "@stdlib/complex-float64-real": "github:stdlib-js/complex-float64-real#main",
+    "@stdlib/complex-float64-imag": "^0.1.0",
+    "@stdlib/complex-float64-real": "^0.1.0",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
