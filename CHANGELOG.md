@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-07)
+## Unreleased (2025-06-09)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`e4518d4`](https://github.com/stdlib-js/stdlib/commit/e4518d45e76b55384e150c318f5967fa90524e73) - **docs:** update examples for `complex/float64/conj` [(#7295)](https://github.com/stdlib-js/stdlib/pull/7295) _(by Shabareesh Shetty)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
 
 </details>
@@ -24,9 +25,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Shabareesh Shetty
 
 </section>
 
